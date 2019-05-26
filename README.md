@@ -22,4 +22,5 @@
 * 二叉查找树的建立、插入、查找、删除操作
 * 二叉查找树的镜像树，即左右子树互换，并与原先的二叉查找树序列进行比较
 * 比较两个二叉树序列是否一致时，建议用动态数组直接比较前后序列
-> void preOrder(BTNode* root, vector<int> &vi)
+// void preOrder(BTNode* root, vector<int> &vi) //先序遍历结果保存在动态数组vi中，vi的值需要变化，所以要用引用类型
+  
