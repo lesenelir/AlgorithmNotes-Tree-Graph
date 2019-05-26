@@ -28,6 +28,9 @@
 * 平衡二叉树的建树、查找、插入操作。
 * 插入操作有四种类型
 > LL 对root进行右旋
+
 > LR 先对root->lchild进行左旋，再对root进行右旋
+
 > RR 对root进行左旋
+
 > RL 先对root->rchild进行右旋，再对root进行左旋
